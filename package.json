@@ -1,0 +1,22 @@
+{
+  "name": "proyecto_final_3ra",
+  "version": "1.0.0",
+  "description": "Pagina web de la Biblioteca San Martín, cuenta con cinco secciones o pages (home, novedades,donaciones,eventos y contacto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss assets/scss/styles.scss assets/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "keywords": [],
+  "author": "Pablo Kaegi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19",
+    "Boostrtrap":"5"
+  },
+  "dependencies": {
+    "D": "^1.0.0"
+  }
+}
