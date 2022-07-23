@@ -1,11 +1,16 @@
 .contacto{
-    width: 500px;
-    align-items: center;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    padding: 15px;
     p {
         font-family: Verdana;
         font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
 }
 }
